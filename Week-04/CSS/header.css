@@ -1,0 +1,11 @@
+header h1{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+}
+header h2{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+}
