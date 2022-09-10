@@ -1,10 +1,9 @@
 /* .footer{
-    position: absolute;
+    display: flex;
     width: 308px;
     height: 161px;
     margin-left: 700px;
     top: 3000px;
-    margin-right: 431px;
 }
 .footer div{
     color: white;
@@ -21,5 +20,5 @@
     font-size: 12px;
     line-height: 14px;
     margin-top: 10px;
-}
- */
+} */
+

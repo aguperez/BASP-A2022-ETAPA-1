@@ -1,9 +1,9 @@
-/* aside{
+ aside{
     width: 30%;
     float: left;
     background-color: #262862;
     height: 100%;
-    position: fixed; 
+    display: none;
  }
  .search-container{
     background-color: #373867;
@@ -88,4 +88,4 @@
 }
 @media screen {
     
-} */
+} 
