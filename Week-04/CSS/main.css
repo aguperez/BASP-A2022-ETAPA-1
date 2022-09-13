@@ -6,3 +6,258 @@ main section{
     width:90%;
     /* margin-left: 30px; */
 }
+
+/* @media (min-width: 480px){
+    float: none;
+    text-align: center;
+    width: 100%;
+} */
+
+h2{
+    color: white;
+    height: 60px;
+    font-size: 30px;
+}
+
+
+.time-tracker-container{
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 100px;
+    margin-left: 15%;
+    width: 80%;
+}
+.time-tracker-container img{
+    width: 100%;
+}
+.time-tracker-container a{
+    color: white;
+    text-decoration: none;
+}
+.time-tracker-container h3{
+    font-size: 20px;
+    /* margin-bottom: 40px; */
+}
+
+.time-tracker-container p{
+    font-size: 12px;
+    margin-bottom: 54px;
+}
+.time-tracker-container a{
+    padding: 14px 36px;
+    width: 156px;
+    height: 46px;
+    background: #49A37B;
+    border-radius: 5px;
+} 
+
+
+.section3{
+    border-bottom: 4px solid #49A37B;
+    width: 80%;
+    margin-left: 15%;
+}
+.section3 div{
+    /* width: 45%; */
+    display: flex;
+    /* margin-right: 20px; */
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+.section3 img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 78px;
+    width: 82px;
+}
+.section3 h2{
+    border-bottom: 4px solid #49A37B;
+    width: fit-content;
+}
+
+.section3 h3{
+    display: block; 
+    font-size: 20px;
+}
+.section3 p{
+    /* width: 100%; */
+    font-size: 12px;
+}    
+
+.section4{
+    border-bottom: 4px solid #49A37B;
+    margin-left: 10%;
+}
+
+.section4 div{
+    background-color: white;
+    width: 211px;
+    height: 168px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border-radius: 17px; 
+    margin-left: 40px;
+}
+.section4 img{
+    /* float: right;
+    margin-left: 166px; */
+    position: absolute; 
+    height: 37px;
+    width: 27px;  
+    margin-left: 170px;
+}
+
+.section4 h3{
+    color: #373867;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 16px;
+    margin-right: 71px;
+}
+
+.section4 p{
+    color: #373867;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 71px;
+    width: 161px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.section5{
+    border-bottom: 4px solid #49A37B;
+    margin-left: 10%;
+}
+.section5 h2{
+    color: white;
+    font-size: 30px;
+}
+.section5 div input{
+    display:inline-block;
+    width: 49%;
+    background-color: #373867;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+.section5 label{
+    margin-top: 30px;
+}
+.button-submit{
+    background: #49A37B;
+}
+.button-reset{
+    background: #F13312;
+}
+textarea{
+    width: 100%;
+    background-color: #373867;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.section5 select{
+    width: 100%;
+    background-color: #373867;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.section6{
+    border-bottom: #49A37B;
+    margin-left: 7%;
+}
+.section6 h2{
+    color: white;
+    font-size: 30px;
+}
+
+.section6 h3{
+    font-size: 20px;
+}
+.section6 img{
+    float: right;
+    width: 60%;
+}
+  .p1{
+    font-size: 12px;
+    float: left;
+    
+}
+ .p2{
+    font-size: 12px;
+    /* float: right; */
+
+}
+.p3{
+    display: none;
+}
+/* .section6{
+    float: left;
+} */
+.section6 div{
+    float: right;
+    margin-bottom: 98.58px;
+    display: none;
+}  
+
+.section7 {
+    border-bottom: 4px solid #49A37B;
+    position: relative;
+    margin-left: 7%;
+}
+.section7 h2{
+    color: white;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0;
+    height: auto;
+} 
+.section7 img{
+    color: white;
+}
+/* .section7 div{
+    display: inline-block;
+    margin: auto;
+    width: 30%;
+} */
+
+@media (min-width: 480px){
+    .time-tracker-container img{
+        width: 50%;
+    }
+
+    .section3 p{
+        width: 100%; 
+        font-size: 12px;
+    }    
+    .section4 h2{
+        border-bottom: 4px solid #49A37B;
+        width: fit-content;
+    }
+    .section5 h2{
+        border-bottom: 4px solid #49A37B;
+        width: fit-content;
+    }
+    .section6{
+        border-bottom: #49A37B;
+    }
+
+    .section6 h2{
+        color: white;
+        font-size: 30px;
+        border-bottom: 4px solid #49A37B;
+        width: fit-content;
+    }
+    .section7 h2{
+        margin-top: 10%;
+    }
+    .section7 div{
+        display: inline-block;
+        margin: auto;
+        width: 30%;
+    }
+}

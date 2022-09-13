@@ -4,10 +4,12 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
 }
-/* 
+ 
 @media screen (min-width: 768px) {
-
-} */
+    body{
+        display:none
+    }
+} 
 
 h2{
     color: white;
@@ -127,7 +129,7 @@ h2{
     font-size: 30px;
 }
 .section5 div input{
-    display: inline-block;
+    display:inline-block;
     width: 49%;
     background-color: #373867;
     border: 1px solid white;
@@ -140,6 +142,7 @@ h2{
 .section5 button{
     background-color: #49A37B;
 }
+
 textarea{
     width: 100%;
     background-color: #373867;
@@ -165,26 +168,31 @@ textarea{
 .section6 h3{
     font-size: 20px;
 }
-/* .p1{
+.section6 img{
+    float: right;
+    width: 60%;
+}
+  .p1{
     font-size: 12px;
-    margin-left: 400px;
     float: left;
     
 }
  .p2{
     font-size: 12px;
-    float: right;
-    margin-left: 400px;
-    margin-right: 400px;
+    /* float: right; */
+
 }
-.section6{
+.p3{
+    display: none;
+}
+/* .section6{
     float: left;
-}
+} */
 .section6 div{
-    width: 238.58px;
     float: right;
     margin-bottom: 98.58px;
-}   */
+    display: none;
+}  
 
 .section7 {
     border-bottom: 4px solid #49A37B;
@@ -198,6 +206,9 @@ textarea{
     padding: 0;
     height: auto;
 } 
+.section7 img{
+    color: white;
+}
 /* .section7 div{
     display: inline-block;
     margin: auto;

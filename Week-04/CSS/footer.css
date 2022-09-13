@@ -1,10 +1,11 @@
  footer{
-    display: flex;
-    /* width: 308px;
-    height: 161px; */
+    /* display: flex;
     margin-left: 7%;
-    /* top: 3000px; */
+    margin-top: 5%; */
+    padding: 5%;
     margin-top: 5%;
+    color: white;
+    text-align: center;
 }
 footer div{
     color: white;
